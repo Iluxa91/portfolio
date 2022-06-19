@@ -1,20 +1,23 @@
 .project {
     background-color: #fde0e0;
-    width: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
-.image {
-    height: 400px;
-    width: 500px;
+.imageContainer {
+    height: 200px;
+    width: 300px;
     background-color: #c3ecec;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: center;
 
 }
 
@@ -23,8 +26,9 @@
 }
 
 .title {
-    margin-left: 20px;
+    align-self: flex-start;
     background-color: #c3ecec;
+    margin-left: 20px;
 }
 
 .description {

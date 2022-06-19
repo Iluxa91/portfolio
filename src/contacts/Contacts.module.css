@@ -10,8 +10,8 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 25%;
+    width: 60%;
+    height: 40%;
     border: 1px solid;
 
 }

@@ -12,5 +12,8 @@
     border: 1px solid;
     width: 80%;
 
-
+}
+.text {
+    text-align: center;
+    background-color: #c3ecec;
 }
