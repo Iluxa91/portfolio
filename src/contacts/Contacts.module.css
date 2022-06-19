@@ -1,0 +1,27 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: #c59fae;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 25%;
+    border: 1px solid;
+
+}
+.input {
+    height: 15%;
+}
+.textArea {
+    height: 70%;
+}
+.button {
+    width: 150px;
+    height: 40px;
+}

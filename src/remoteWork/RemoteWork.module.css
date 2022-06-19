@@ -1,0 +1,16 @@
+.block {
+    background-color: #fff9c0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 80%;
+
+
+}

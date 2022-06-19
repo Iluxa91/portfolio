@@ -1,0 +1,17 @@
+.footerBlock {
+    background-color: #c3fcc3;
+    height: 20vh;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.myLinks {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    height: 50px;
+    width: 600px;
+    align-items: center;
+}
