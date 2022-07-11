@@ -5,13 +5,16 @@
 
 .container {
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .myLinks {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid;
-    height: 50px;
     width: 280px;
+    border: 1px solid;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+
 }

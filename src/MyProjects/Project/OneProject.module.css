@@ -1,17 +1,25 @@
 .project {
-    background-color: #fde0e0;
+    background-color: #1e1e1e;;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
     box-sizing: border-box;
     width:100%;
-    max-width: 350px;
-
+    max-width: 450px;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #3b3e3e;
+    font: 400 16px/1.8 'Josefin Sans', sans-serif;
+    /*font-style: normal;*/
+    /*font-variant-ligatures: normal;*/
+    /*font-variant-caps: normal;*/
+    /*font-variant-numeric: normal;*/
+    /*font-variant-east-asian: normal;*/
 }
 
 .imageContainer {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: #c3ecec;
     display: flex;
@@ -26,14 +34,24 @@
 
 }
 
-.title {
+.pojectTitle {
     align-self: flex-start;
-    background-color: #c3ecec;
     margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 1.2;
+
 }
 
 .description {
-    background-color: #c3ecec;
-    margin-left: 20px;
+    padding-left: 20px;
+    margin: 0;
+    color: #6e7373;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.6px;
+
 
 }

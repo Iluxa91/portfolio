@@ -1,20 +1,23 @@
 .projectsBlock {
-    min-height: 100vh;
-    background-color: #f1bff1;
-
+    background-color: #191919 !important;
+    padding: 100px 0;
 }
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 
 }
-.title {
-    background-color: gray;
-}
+
 .projects {
-    border: 1px solid;
+    margin-top: 30px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 1129px) {
+    .projects {
+        justify-content: center;
+    }
 }

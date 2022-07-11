@@ -4,11 +4,10 @@ export const OneProject = (props) => {
     return (
         <div className={s.project}>
             <div className={s.imageContainer}>
-                <img src={"img_project.jpg"} alt={'project title image'}/>
-                <a href={'projectAdress'} className={s.button}>View the project</a>
+                <a className={s.button}>View the project</a>
             </div>
-            <h3 className={s.title}>{props.title}</h3>
-            <div className={s.description}>{props.description}</div>
+            <h5 className={s.pojectTitle}>{props.title}</h5>
+            <p className={s.description}>{props.description}</p>
 
         </div>
     )

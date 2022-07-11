@@ -5,13 +5,13 @@ export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${style.container} ${s.container}`}>
-                <h2>Contacts</h2>
-                <form className={s.form} action="">
-                    <input className={s.input}/>
-                    <input className={s.input}/>
-                    <textarea className={s.textArea}></textarea>
+                <h2 className={s.title}>Contacts</h2>
+                <form className={s.contactForm}>
+                    <input type='text' className={s.input}/>
+                    <input type='text' className={s.input}/>
+                    <textarea className={s.textArea}/>
+                    <button type='submit' className={s.button}>Send</button>
                 </form>
-                <button className={s.button}>Send</button>
             </div>
         </div>
     )

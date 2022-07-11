@@ -11,7 +11,7 @@ export const Footer = () => {
                   <div><a href="">Linkedin</a></div>
                   <div><a href="">GitHub</a></div>
                 </div>
-                <h3>© 2022 All right reserved</h3>
+                <h3>© 2022 All Rights Reserved</h3>
             </div>
 
 
