@@ -1,17 +1,18 @@
 .project {
     background-color: #fde0e0;
-    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
     box-sizing: border-box;
+    width:100%;
+    max-width: 350px;
 
 }
 
 .imageContainer {
     height: 200px;
-    width: 300px;
+    width: 100%;
     background-color: #c3ecec;
     display: flex;
     flex-direction: column;
