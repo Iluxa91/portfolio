@@ -3,7 +3,7 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {MyProjects} from "./MyProjects/MyProjects";
-import {RemoteWork} from "./remoteWork/RemoteWork";
+import {HireMe, RemoteWork} from "./hireMe/HireMe";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 
@@ -16,7 +16,7 @@ function App() {
             <Main/>
             <Skills/>
             <MyProjects/>
-            <RemoteWork/>
+            <HireMe/>
             <Contacts/>
             <Footer/>
         </div>

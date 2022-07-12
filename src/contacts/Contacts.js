@@ -1,11 +1,12 @@
 import style from '../common/styles/container.module.css'
-import s from './Contacts.module.css'
+import s from './Contacts.module.scss'
 
 export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${style.container} ${s.container}`}>
-                <h2 className={s.title}>Contacts</h2>
+                <span>say Hello</span>
+                <h2 >Contact</h2>
                 <form className={s.contactForm}>
                     <input type='text' className={s.input}/>
                     <input type='text' className={s.input}/>
