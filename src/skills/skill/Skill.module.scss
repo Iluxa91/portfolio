@@ -1,0 +1,43 @@
+@import "../../common/styles/sass/variables";
+
+.skillContainer {
+    width: 250px;
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid #3b3e3e;
+    font: 400 16px/1.8 'Josefin Sans', sans-serif;
+    .icon {
+        height: 70px;
+        width: 70px;
+        background-size: cover;
+        background-position: center;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 1.2;
+        color: $textColor;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    span {
+        font-family: 'Open Sans', sans-serif;
+        color: $textDescriptColor;
+        margin: 0;
+    }
+}
+
+
+.title {
+
+}
+
+.description {
+
+}

@@ -1,0 +1,26 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 80px;
+  position: fixed;
+  background-color: $bgColor;
+  z-index: 999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  left: 0;
+  right: 0;
+  &::after {
+    @include underTitleLine(0);
+  }
+  .name {
+    font: 400 16px/1.8 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    color: $textColor;
+  }
+}

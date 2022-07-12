@@ -1,0 +1,15 @@
+@import "../common/styles/sass/variables.scss";
+
+.navbar {
+   width: 350px;
+   display: flex;
+   justify-content: space-between;
+   a {
+      cursor: pointer;
+      letter-spacing: 1.0px;
+      font: 700 13px/1.8 'Open Sans', sans-serif;
+      color: $textSecondColor;
+      text-decoration: none;
+      text-transform: uppercase;
+   }
+}

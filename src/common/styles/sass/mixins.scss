@@ -1,0 +1,19 @@
+@import "./variables";
+
+@mixin position($display, $flexDir, $align, $width) {
+  display: $display;
+  flex-direction: $flexDir;
+  align-items: $align;
+  width: $width;
+}
+
+@mixin underTitleLine($bottom) {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  width: 100%;
+  content: "";
+  bottom: $bottom
+}
