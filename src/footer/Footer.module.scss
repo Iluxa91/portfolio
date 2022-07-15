@@ -1,12 +1,18 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .footerBlock {
     background-color: $bgSecondColor;
     height: 150px;
     font: 400 16px/1.8 'Josefin Sans', sans-serif;
+    position: relative;
+    &::before {
+        @include underTitleLine(-30pxpx);
+    }
     .container {
         flex-direction: column;
         justify-content: center;
+
         .myLinks {
             width: 280px;
             display: flex;
