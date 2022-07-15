@@ -18,6 +18,7 @@ export const Footer = () => {
     const codewars = {
         backgroundImage: `url(${codewarsImg})`,
     }
+
     return (
         <div className={s.footerBlock}>
             <div className={`${style.container} ${s.container}`}>
