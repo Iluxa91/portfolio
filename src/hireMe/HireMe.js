@@ -7,8 +7,6 @@ export const HireMe = () => {
                 <h2>Let's work together!</h2>
                 <a >Hire me!</a>
             </div>
-
-
         </div>
     )
 }

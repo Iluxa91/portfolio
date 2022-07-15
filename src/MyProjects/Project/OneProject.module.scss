@@ -1,7 +1,6 @@
 @import "../../common/styles/sass/variables";
 @import "../../common/styles/sass/mixins";
 
-
 .project {
     @include position(flex, column, flex-start, 100%);
     padding: 20px;
