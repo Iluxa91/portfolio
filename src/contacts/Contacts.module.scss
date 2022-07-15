@@ -38,13 +38,33 @@
         flex-direction: column;
         align-items: center;
         input, textarea {
+            margin: 10px;
             width: 100%;
             background: $bgSecondColor;
-            margin-top: 1rem;
+            padding: 15px 30px;
+            height: auto;
+            color: $textColor;
+            font-family: 'Open Sans', sans-serif;
+            border-radius: 2px;
+            overflow: hidden;
+            border: 1px solid #3b3e3e;
+            font-size: 1rem;
+            line-height: 1.5;
+            resize: none;
         }
-        .button {
-            padding: 10px 20px;
-            background-color: gray;
+        .submitBtn {
+            margin: 20px;
+            padding: 12px 50px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: $textColor;
+            text-transform: uppercase;
+            background-color: #fd735a;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            min-width: 140px;
+            line-height: 1.5;
+            cursor: pointer;
         }
         @media screen and (max-width: 360px){
                 width: 100%;

@@ -1,0 +1,33 @@
+@import "../common/styles/sass/variables";
+
+.footerBlock {
+    background-color: $bgSecondColor;
+    height: 150px;
+    font: 400 16px/1.8 'Josefin Sans', sans-serif;
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        .myLinks {
+            width: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            div {
+                height: 25px;
+                width: 25px;
+                background-size: cover;
+                background-position: center;
+                cursor: pointer;
+            }
+        };
+        p {
+            color: #6e7373;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+        }
+    }
+}
+
+
+
