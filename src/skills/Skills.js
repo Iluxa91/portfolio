@@ -7,6 +7,7 @@ import jsImg from "../assets/images/JS.png"
 import cssImg from "../assets/images/scc.png"
 import htmlImg from "../assets/images/html.png"
 import tsImg from "../assets/images/typescript.png"
+import rdxImg from "../assets/images/reduxend.png"
 
 const reactImage = {
     backgroundImage: `url(${reactImg})`,
@@ -22,6 +23,9 @@ const cssImage = {
 }
 const htmlImage = {
     backgroundImage: `url(${htmlImg})`,
+}
+const reduxImage = {
+    backgroundImage: `url(${rdxImg})`,
 }
 
 export const Skills = () => {
@@ -45,8 +49,12 @@ export const Skills = () => {
                         description={'Css description'}/>
                     <Skill
                         style={reactImage}
-                        title={'React/Redux'}
+                        title={'React'}
                         description={'react description'}/>
+                    <Skill
+                        style={reduxImage}
+                        title={'Redux'}
+                        description={'redux description'}/>
                     <Skill
                         style={htmlImage}
                         title={'HTML'}
