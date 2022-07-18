@@ -25,7 +25,7 @@ export const Footer = () => {
                 {/*<h2>Kisialiou Ilya</h2>*/}
                 <div className={s.myLinks}>
                   <div style={facebook}><a href=""></a></div>
-                  <div style={linkedin}><a href=""></a></div>
+                  <div style={linkedin}><a href="#"></a></div>
                   <div style={github}><a href=""></a></div>
                   <div style={codewars}><a href=""></a></div>
                 </div>

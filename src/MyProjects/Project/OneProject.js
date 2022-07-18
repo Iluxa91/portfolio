@@ -4,7 +4,7 @@ export const OneProject = (props) => {
     return (
         <div className={s.project}>
             <div className={s.imageContainer} style={props.style}>
-                <a className={s.button}>View the project</a>
+                <a className={s.button} href={'https://todo-list-pattern.herokuapp.com/'}>View the project</a>
             </div>
             <div className={s.pojectInfo}>
                 <h5 className={s.pojectTitle}>{props.title}</h5>
