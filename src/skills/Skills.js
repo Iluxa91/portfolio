@@ -7,6 +7,7 @@ import cssImg from "../assets/images/scc.png"
 import htmlImg from "../assets/images/html.png"
 import tsImg from "../assets/images/typescript.png"
 import rdxImg from "../assets/images/reduxend.png"
+import Fade from "react-reveal/Fade";
 
 const reactImage = {
     backgroundImage: `url(${reactImg})`,
@@ -29,11 +30,14 @@ const reduxImage = {
 
 export const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
+        <div id={'skills'} className={s.skillsBlock}>
             <div className={s.skillsContainer}>
                 {/*<h2 className={s.title}>Skills</h2>*/}
+                <Fade bottom>
                 <Title spanText={'My resume'} headText={'My expertises'}/>
+                </Fade>
                 <div className={s.skills}>
+                    <Fade bottom>
                     <Skill
                         style={jsImage}
                         title={'JavaScript'}
@@ -58,6 +62,7 @@ export const Skills = () => {
                         style={htmlImage}
                         title={'HTML'}
                         description={'react description'}/>
+                    </Fade>
                 </div>
             </div>
         </div>

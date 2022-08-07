@@ -16,7 +16,7 @@ export const Footer = () => {
                     <div className={s.myLink}><a href="https://github.com/Iluxa91"><img src={gitImg} alt=""/></a></div>
                     <div className={s.myLink}><a href="https://www.codewars.com/users/Iluxa91"><img src={codewarsImg} alt=""/></a></div>
                 </div>
-                <p>© Ilua Kisialiou 2022 | All Rights Reserved</p>
+                <p className={s.copyright}>© Ilua Kisialiou 2022 | All Rights Reserved</p>
             </div>
         </div>
     )

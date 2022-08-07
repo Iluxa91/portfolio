@@ -11,5 +11,12 @@
       color: $textSecondColor;
       text-decoration: none;
       text-transform: uppercase;
+      &:hover {
+         color: $primaryColor;
+      }
+
+   }
+   .active {
+      color: $primaryColor;
    }
 }

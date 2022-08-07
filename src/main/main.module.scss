@@ -4,17 +4,29 @@
 .mainBlock {
   height: 100vh;
   background-color: $bgColor;
+  position: relative;
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
   .mainContainer {
     @include container();
     justify-content: space-around;
 
     .text {
-      padding: 0;
+
       min-width: 300px;
       position: relative;
       font: 400 16px/1.8 'Josefin Sans', sans-serif;
       color: $textColor;
+      @media (max-width: 861px) {
+        padding-top: 80px;
+      }
 
       &::after {
         @include underTitleLine(-30px);
@@ -25,12 +37,28 @@
         font-size: 20px;
         font-weight: 300;
         letter-spacing: 3px;
-        padding-bottom: 10px;
         text-transform: uppercase;
-        @media (max-width: 1150px) {
-          padding-top: 80px;
+        @media (max-width: 1143px) {
           font-size: 16px;
         }
+
+        &:nth-child(3) {
+          font-size: 28px;
+          font-weight: 400;
+          letter-spacing: 3px;
+          margin: 0;
+
+          span {
+            font-size: 28px;
+            font-weight: 400;
+          }
+
+          @media (max-width: 1143px) {
+            font-size: 20px;
+            letter-spacing: 2px;
+          }
+        }
+
       }
 
       h1 {
@@ -40,31 +68,73 @@
         line-height: 1.2;
         letter-spacing: 2px;
         margin: 0;
-        @media (max-width: 1150px) {
+        @media (max-width: 1143px) {
           font-size: 8vh;
         }
-      }
 
-      p {
-        font-size: 25px;
-        font-weight: 300;
-        letter-spacing: 3px;
-        margin: 0;
-        @media (max-width: 1150px) {
-          font-size: 20px;
+        h1 {
+          display: inline-block;
+          position: relative;
+          z-index: 0;
+
+          &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            background-color: $primaryColor;
+            bottom: 15px;
+            z-index: -1;
+            @media (min-width: 1143px) {
+              bottom: 22px;
+              height: 12px;
+            }
+          }
         }
       }
-
     }
 
     .photo {
-      background-image: url('../assets/images/ava.jpg');
-      width: 300px;
-      height: 400px;
-      background-size: cover;
-      background-position: center;
-      border-radius: 10px;
-      opacity: 0.8;
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width: 1143px) {
+        margin-top: 30px;
+      }
+
+      .image {
+        height: 400px;
+        width: 300px;
+        background-image: url('../assets/images/avaFilter.jpg');
+        background-position: 80% 0;
+        background-size: cover;
+        @media screen and (max-width: 600px) {
+          height: 360px;
+          width: 260px;
+          transition: .5s;
+        }
+
+        //&:before {
+        //  content: '';
+        //  position: absolute;
+        //  height: 110%;
+        //  width: 105%;
+        //  border: 5px solid $primaryColor;
+        //  left: 15px;
+        //  top: -15px;
+        //  z-index: -1;
+        //}
+      }
+
+      .baget {
+        content: '';
+        position: absolute;
+        height: 110%;
+        width: 105%;
+        border: 5px solid $primaryColor;
+        left: 15px;
+        top: -15px;
+        z-index: -1;
+      }
     }
   }
 
