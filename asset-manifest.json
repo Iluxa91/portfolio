@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba6ab9c0.css",
-    "main.js": "/portfolio/static/js/main.086e264c.js",
+    "main.css": "/portfolio/static/css/main.f0dad875.css",
+    "main.js": "/portfolio/static/js/main.6af56c54.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/ava.jpg": "/portfolio/static/media/ava.3bbcc47367a729f50382.jpg",
+    "static/media/avaFilter.jpg": "/portfolio/static/media/avaFilter.3c58c908a33dae0621f3.jpg",
     "static/media/reduxend.png": "/portfolio/static/media/reduxend.67e0be32942bc6b568d6.png",
     "static/media/codewars.webp": "/portfolio/static/media/codewars.2456a5d33afd85a395a7.webp",
     "static/media/socialImage.jpg": "/portfolio/static/media/socialImage.6aa0c1b53f04ac298494.jpg",
@@ -18,12 +18,12 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/telegram.webp": "/portfolio/static/media/telegram.9229e57601fd213881fb.webp",
     "index.html": "/portfolio/index.html",
-    "main.ba6ab9c0.css.map": "/portfolio/static/css/main.ba6ab9c0.css.map",
-    "main.086e264c.js.map": "/portfolio/static/js/main.086e264c.js.map",
+    "main.f0dad875.css.map": "/portfolio/static/css/main.f0dad875.css.map",
+    "main.6af56c54.js.map": "/portfolio/static/js/main.6af56c54.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba6ab9c0.css",
-    "static/js/main.086e264c.js"
+    "static/css/main.f0dad875.css",
+    "static/js/main.6af56c54.js"
   ]
 }
