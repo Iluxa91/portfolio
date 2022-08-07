@@ -1,9 +1,11 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .projectsBlock {
   background-color: $bgColor;
   padding: 100px 0;
   .projectsContainer {
+    @include container();
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;

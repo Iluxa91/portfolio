@@ -1,5 +1,4 @@
-import s from './Skills.module.scss'
-import style from './../common/styles/container.module.css'
+import s from "./Skills.module.scss"
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import reactImg from "../assets/images/reactImg.png"
@@ -31,7 +30,7 @@ const reduxImage = {
 export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
-            <div className={`${style.container} ${s.skillsContainer}`}>
+            <div className={s.skillsContainer}>
                 {/*<h2 className={s.title}>Skills</h2>*/}
                 <Title spanText={'My resume'} headText={'My expertises'}/>
                 <div className={s.skills}>

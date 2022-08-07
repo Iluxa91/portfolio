@@ -4,17 +4,22 @@
 .mainBlock {
   height: 100vh;
   background-color: $bgColor;
+
   .mainContainer {
+    @include container();
     justify-content: space-around;
+
     .text {
       padding: 0;
       min-width: 300px;
       position: relative;
       font: 400 16px/1.8 'Josefin Sans', sans-serif;
       color: $textColor;
+
       &::after {
         @include underTitleLine(-30px);
       }
+
       span {
         display: block;
         font-size: 20px;
@@ -22,11 +27,12 @@
         letter-spacing: 3px;
         padding-bottom: 10px;
         text-transform: uppercase;
-        @media (max-width: 1150px){
+        @media (max-width: 1150px) {
           padding-top: 80px;
           font-size: 16px;
         }
       }
+
       h1 {
         display: block;
         font-weight: 300;
@@ -34,21 +40,23 @@
         line-height: 1.2;
         letter-spacing: 2px;
         margin: 0;
-        @media (max-width: 1150px){
+        @media (max-width: 1150px) {
           font-size: 8vh;
         }
       }
+
       p {
         font-size: 25px;
         font-weight: 300;
         letter-spacing: 3px;
         margin: 0;
-        @media (max-width: 1150px){
+        @media (max-width: 1150px) {
           font-size: 20px;
         }
       }
 
     }
+
     .photo {
       background-image: url('../assets/images/ava.jpg');
       width: 300px;
@@ -59,10 +67,6 @@
       opacity: 0.8;
     }
   }
-
-
-
-
 
 
 }

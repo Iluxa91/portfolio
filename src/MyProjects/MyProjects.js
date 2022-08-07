@@ -1,5 +1,4 @@
 import s from "./MyProjects.module.scss"
-import style from "../common/styles/container.module.css";
 import {OneProject} from "./Project/OneProject";
 import {Title} from "../common/components/title/Title";
 import todoImage from "../assets/images/todos.jpg"
@@ -15,7 +14,7 @@ export const MyProjects = () => {
     }
     return (
         <div className={s.projectsBlock}>
-            <div className={`${style.container} ${s.projectsContainer}`}>
+            <div className={s.projectsContainer}>
                 <Title spanText={'Portfolio'} headText={'My Projects'}/>
                 <div className={s.projects}>
                     <OneProject

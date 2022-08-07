@@ -1,5 +1,4 @@
-import s from './main.module.scss'
-import style from '../common/styles/container.module.css'
+import s from "./main.module.scss"
 
 export const Main = () => {
     // const avator = {
@@ -8,7 +7,7 @@ export const Main = () => {
 
     return (
         <div className={s.mainBlock}>
-            <div className={`${style.container} ${s.mainContainer}`}>
+            <div className={s.mainContainer}>
                 <div className={s.text}>
                     <span>Hello, I am</span>
                     <h1>Ilya Kisialiou</h1>

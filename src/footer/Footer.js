@@ -1,33 +1,20 @@
-import s from './Footer.module.scss'
-import style from '../common/styles/container.module.css'
-import facebookImg from '../assets/images/facebook.png'
-import linkedImg from '../assets/images/linkedin.png'
-import gitImg from '../assets/images/github.png'
-import codewarsImg from '../assets/images/codewars.webp'
+import s from "./Footer.module.scss"
+import telegramImg from "../assets/images/telegram.webp"
+import linkedImg from "../assets/images/linkedin.png"
+import gitImg from "../assets/images/github.png"
+import codewarsImg from "../assets/images/codewars.webp"
 
 export const Footer = () => {
-    const facebook = {
-        backgroundImage: `url(${facebookImg})`,
-    }
-    const linkedin = {
-        backgroundImage: `url(${linkedImg})`,
-    }
-    const github = {
-        backgroundImage: `url(${gitImg})`,
-    }
-    const codewars = {
-        backgroundImage: `url(${codewarsImg})`,
-    }
 
     return (
         <div className={s.footerBlock}>
-            <div className={`${style.container} ${s.container}`}>
+            <div className={s.container}>
                 {/*<h2>Kisialiou Ilya</h2>*/}
                 <div className={s.myLinks}>
-                  <div style={facebook}><a href=""></a></div>
-                  <div style={linkedin}><a href="#"></a></div>
-                  <div style={github}><a href=""></a></div>
-                  <div style={codewars}><a href=""></a></div>
+                  <div className={s.myLink}><a href="https://t.me/iluaKiselev"><img src={telegramImg} alt=""/></a></div>
+                    <div className={s.myLink}><a href="https://www.linkedin.com/in/iluakisialiou/"><img src={linkedImg} alt=""/></a></div>
+                    <div className={s.myLink}><a href="https://github.com/Iluxa91"><img src={gitImg} alt=""/></a></div>
+                    <div className={s.myLink}><a href="https://www.codewars.com/users/Iluxa91"><img src={codewarsImg} alt=""/></a></div>
                 </div>
                 <p>© Ilua Kisialiou 2022 | All Rights Reserved</p>
             </div>
