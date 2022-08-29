@@ -12,7 +12,7 @@ export const Main = () => {
     }, []);
 
     const particleOptions = {
-        fullScreen: {enable: false},
+        fullScreen: {enable: true},
         fpsLimit: 120,
         interactivity: {
             modes: {

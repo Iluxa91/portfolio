@@ -10,11 +10,12 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     .projects {
+      grid-gap: 20px;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fill,minmax(300px,auto));
       margin-top: 30px;
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
       @media screen and (max-width: 1129px) {
         justify-content: center;
       }

@@ -3,7 +3,7 @@
 
 .project {
     @include position(flex, column, flex-start, 100%);
-    padding: 20px;
+    opacity: 0.7;
     box-sizing: border-box;
     background-color: $bgSecondColor;
     max-width: 450px;
@@ -19,7 +19,7 @@
         background-position: center;
         position: relative;
         &::before {
-            @include opacityRegulation(0.4)
+            @include opacityRegulation(0.3)
         }
         .button {
             text-decoration: none;
@@ -28,6 +28,7 @@
             cursor: pointer;
             position: relative;
             z-index: 1;
+            padding: 10px;
         }
     }
     .pojectTitle {
@@ -37,12 +38,14 @@
         font-weight: 500;
         align-self: flex-start;
         margin-left: 20px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
     }
     .description {
         font-family: 'Open Sans', sans-serif;
         color: $textDescriptColor;
         padding-left: 20px;
+        padding-bottom: 20px;
         margin: 0;
     }
 }
