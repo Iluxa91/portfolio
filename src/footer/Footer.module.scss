@@ -34,6 +34,7 @@
                 }
                 &:hover {
                     transition: all 0.3s ease-in-out 0s;
+                    filter: saturate(300%);
                 }
                 a {
                     width: 100%;
