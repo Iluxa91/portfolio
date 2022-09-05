@@ -4,7 +4,7 @@ import {loadFull} from "tsparticles";
 import {useCallback} from "react";
 import Fade from "react-reveal/Fade";
 import ReactTypingEffect from "react-typing-effect";
-import Tilt from "react-tilt"
+import Tilt from 'react-tilt'
 
 const particleOptions = {
     fullScreen: {enable: true},
@@ -84,8 +84,8 @@ export const Main = () => {
                         <ReactTypingEffect text={"Front-end Developer"}/>
                     </div>
                     <div className={s.photo}>
-                        <Tilt className="Tilt" options={{max: 25}}>
-                            <div className={s.image}/>
+                        <Tilt className="Tilt" options={{ max : 25 }}>
+                        <div className={s.image}/>
                         </Tilt>
                         <div className={s.baget}/>
                     </div>
