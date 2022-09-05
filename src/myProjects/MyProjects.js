@@ -6,17 +6,18 @@ import socialImage from "../assets/images/socialImage.jpg"
 import cardsImage from "../assets/images/cards.jpg"
 import Fade from "react-reveal/Fade";
 
+const socialNW = {
+    backgroundImage: `url(${socialImage})`,
+}
+const todolist = {
+    backgroundImage: `url(${todoImage})`,
+}
+const cards = {
+    backgroundImage: `url(${cardsImage})`,
+}
 
 export const MyProjects = () => {
-    const socialNW = {
-        backgroundImage: `url(${socialImage})`,
-    }
-    const todolist = {
-        backgroundImage: `url(${todoImage})`,
-    }
-    const cards = {
-        backgroundImage: `url(${cardsImage})`,
-    }
+
     return (
         <div id={"projects"} className={s.projectsBlock}>
             <div className={s.projectsContainer}>
@@ -48,7 +49,6 @@ export const MyProjects = () => {
                         />
                     </Fade>
                 </div>
-
             </div>
         </div>
     )

@@ -3,7 +3,6 @@
 
 .project {
     @include position(flex, column, flex-start, 100%);
-    opacity: 0.7;
     box-sizing: border-box;
     background-color: $bgSecondColor;
     max-width: 450px;

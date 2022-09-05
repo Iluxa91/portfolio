@@ -68,7 +68,6 @@ export const Skills = () => {
     return (
         <div id={"skills"} className={s.skillsBlock}>
             <div className={s.skillsContainer}>
-                {/*<h2 className={s.title}>Skills</h2>*/}
                 <Fade bottom>
                     <Title spanText={"My resume"} headText={"My expertises"}/>
                 </Fade>
@@ -77,63 +76,63 @@ export const Skills = () => {
                         <Skill
                             style={jsImage}
                             title={"JavaScript"}
-                            description={"javascript description"}/>
+                            description={"The Programming Language for the Web that conforms to the ECMAScript specification."}/>
                         <Skill
                             style={tsImage}
                             title={"TypeScrypt"}
-                            description={"javascript description"}/>
+                            description={"A syntactic superset of JavaScript which adds static typing."}/>
                         <Skill
                             style={cssImage}
-                            title={"CSS/SASS"}
-                            description={"Css description"}/>
+                            title={"CSS"}
+                            description={"Stylesheet language used to describe the presentation of a document written in HTML."}/>
                         <Skill
                             style={reactImage}
                             title={"React"}
-                            description={"react description"}/>
+                            description={"JavaScript-based UI development library."}/>
                         <Skill
                             style={reduxImage}
                             title={"Redux"}
-                            description={"redux description"}/>
+                            description={"JavaScript library for managing and centralizing application state."}/>
                         <Skill
                             style={htmlImage}
                             title={"HTML"}
-                            description={"react description"}/>
+                            description={"Hypertext Markup Language for describing the contents and appearance of Web pages."}/>
                         <Skill
                             style={sassImage}
                             title={"SASS"}
-                            description={"react description"}/>
+                            description={"CSS preprocessor, which adds special features such as variables, nested rules and mixins into regular CSS."}/>
                         <Skill
                             style={jestImage}
                             title={"Jest"}
-                            description={"react description"}/>
+                            description={"JavaScript library for creating, running, and structuring tests."}/>
                         <Skill
                             style={restImage}
                             title={"RestAPI"}
-                            description={"react description"}/>
+                            description={"Architectural style for an application program interface (API) that uses HTTP requests to access and use data."}/>
                         <Skill
                             style={axiosImage}
                             title={"Axios"}
-                            description={"react description"}/>
+                            description={"Promise-based library used with Node.js and browser to make asynchronous JavaScript HTTP requests."}/>
                         <Skill
                             style={muImage}
                             title={"Material UI"}
-                            description={"react description"}/>
+                            description={"Library that allows import and use different components to create a user interface in React applications."}/>
                         <Skill
                             style={storyImage}
                             title={"StoryBook"}
-                            description={"react description"}/>
+                            description={"Tool for building UI components and pages in isolation."}/>
                         <Skill
                             style={gitImage}
                             title={"Git"}
-                            description={"react description"}/>
+                            description={"DevOps tool used for source code management."}/>
                         <Skill
                             style={formikImage}
                             title={"Formik"}
-                            description={"react description"}/>
+                            description={"Small group of React components and hooks for building forms in React and React Native."}/>
                         <Skill
                             style={postmanImage}
                             title={"Postman"}
-                            description={"react description"}/>
+                            description={"API platform for building and using APIs"}/>
                     </Fade>
                 </div>
             </div>
