@@ -4,7 +4,7 @@
 .project {
     @include position(flex, column, flex-start, 100%);
     box-sizing: border-box;
-    background-color: $bgSecondColor;
+    background-color: rgba(30,30,30,.6);
     max-width: 450px;
     border-radius: 2px;
     border: 1px solid #3b3e3e;
