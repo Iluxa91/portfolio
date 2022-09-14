@@ -1,8 +1,8 @@
-@import '../common/styles/sass/variables';
-@import "../common/styles/sass/mixins.scss";
+@import '../../common/styles/sass/variables';
+@import "../../common/styles/sass/mixins";
 
 .block {
-  background: url('../assets/images/freelance.webp');
+  background: url('../../assets/images/freelance.webp');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

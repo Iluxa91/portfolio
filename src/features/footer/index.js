@@ -1,7 +1,7 @@
-import telegramImg from "../assets/images/telegram.webp";
-import linkedImg from "../assets/images/linkedin.png";
-import gitImg from "../assets/images/github.png";
-import codewarsImg from "../assets/images/codewars.webp";
+import telegramImg from "../../assets/images/telegram.webp";
+import linkedImg from "../../assets/images/linkedin.png";
+import gitImg from "../../assets/images/github.png";
+import codewarsImg from "../../assets/images/codewars.webp";
 
 export const myLinks = [
     {

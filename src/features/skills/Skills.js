@@ -1,8 +1,8 @@
 import s from "./Skills.module.scss"
 import {Skill} from "./skill/Skill";
-import {Title} from "../common/components/title/Title";
+import {Title} from "../../common/components/title/Title";
 import Fade from "react-reveal/Fade";
-import {skills} from "./";
+import {skills} from "./index";
 
 
 export const Skills = () => {

@@ -1,5 +1,5 @@
-@import "../common/styles/sass/variables.scss";
-@import "../common/styles/sass/mixins.scss";
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
 
 .mainBlock {
   height: 100vh;
@@ -104,7 +104,7 @@
       .image {
         height: 400px;
         width: 300px;
-        background-image: url('../assets/images/avaFilter.jpg');
+        background-image: url('../../assets/images/avaFilter.jpg');
         background-position: 80% 0;
         background-size: cover;
         @media screen and (max-width: 600px) {

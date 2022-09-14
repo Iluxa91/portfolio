@@ -1,11 +1,11 @@
 import "./App.css";
-import {Header} from "../header/Header";
-import {Main} from "../main/Main";
-import {Skills} from "../skills/Skills";
-import {MyProjects} from "../myProjects/MyProjects";
-import {HireMe} from "../hireMe/HireMe";
-import {Contacts} from "../contacts/Contacts";
-import {Footer} from "../footer/Footer";
+import {Header} from "../features/header/Header";
+import {Main} from "../features/main/Main";
+import {Skills} from "../features/skills/Skills";
+import {MyProjects} from "../features/myProjects/MyProjects";
+import {HireMe} from "../features/hireMe/HireMe";
+import {Contacts} from "../features/contacts/Contacts";
+import {Footer} from "../features/footer/Footer";
 
 function App() {
     return (

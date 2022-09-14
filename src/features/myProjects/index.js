@@ -1,6 +1,6 @@
-import todoImage from "../assets/images/todos.jpg"
-import socialImage from "../assets/images/socialImage.jpg"
-import cardsImage from "../assets/images/cards.jpg"
+import todoImage from "../../assets/images/todos.jpg"
+import socialImage from "../../assets/images/socialImage.jpg"
+import cardsImage from "../../assets/images/cards.jpg"
 
 const socialNW = {
     backgroundImage: `url(${socialImage})`,

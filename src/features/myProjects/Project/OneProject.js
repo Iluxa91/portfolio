@@ -1,5 +1,5 @@
 import s from './OneProject.module.scss'
-import {Button} from "../../common/components/button/Button";
+import {Button} from "../../../common/components/button/Button";
 
 export const OneProject = (props) => {
     return (

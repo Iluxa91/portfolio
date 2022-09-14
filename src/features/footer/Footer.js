@@ -1,5 +1,5 @@
 import s from "./Footer.module.scss"
-import {myLinks} from "./";
+import {myLinks} from "./index";
 import {MyLink} from "./MyLink";
 
 export const Footer = () =>
