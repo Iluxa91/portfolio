@@ -25,6 +25,7 @@
     "react-tilt": "^0.1.4",
     "react-tsparticles": "^2.1.4",
     "react-typing-effect": "^2.0.5",
+    "swiper": "^8.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

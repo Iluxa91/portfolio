@@ -2,7 +2,7 @@ import s from "./MyProjects.module.scss"
 import {OneProject} from "./Project/OneProject";
 import {Title} from "../../common/components/title/Title";
 import Fade from "react-reveal/Fade";
-import {projects} from "./index";
+import {projects} from "./";
 
 
 export const MyProjects = () => (
