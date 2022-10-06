@@ -1,6 +1,7 @@
 import todoImage from "../../assets/images/todos.jpg"
 import socialImage from "../../assets/images/socialImage.jpg"
 import cardsImage from "../../assets/images/cards.jpg"
+import actionImage from "../../assets/images/dates.jpg"
 
 const socialNW = {
     backgroundImage: `url(${socialImage})`,
@@ -10,6 +11,9 @@ const todolist = {
 }
 const cards = {
     backgroundImage: `url(${cardsImage})`,
+}
+const actionRange = {
+    backgroundImage: `url(${actionImage})`,
 }
 
 export const projects = [
@@ -33,5 +37,12 @@ export const projects = [
         description: "Educational project. Stack: TypeScript, React, Redux, Redux-thunk, React-Router-Dom, Axios, Formik, Reselect. Using TypeScript for better code control. Creating unit tests, bug fixing, refactoring, deploying. Organizing correct app architecture.",
         projectPath: "https://iluxa91.github.io/samurai-way-main",
         codePath: "https://github.com/Iluxa91/samurai-way-main"
+    },
+    {
+        style: actionRange,
+        title: "Action Range",
+        description: "Educational project. Stack: Webpack, TypeScript, React, SCSS, Swiper. Using TypeScript for better code control. Bug fixing, refactoring, deploying. Organizing correct app architecture.",
+        projectPath: "https://iluxa91.github.io/historical_dates",
+        codePath: "https://github.com/Iluxa91/historical_dates"
     },
 ]
