@@ -12,11 +12,12 @@ const linksTo = [
 export const Nav = () => {
     return (
         <div className={s.navbar}>
-            {linksTo.map(l => <Link activeClass={s.active}
-                                    duration={500}
-                                    spy={true}
-                                    smooth={true}
-                                    to={l.to}>{l.title}</Link>)}
+            {linksTo.map((l, i) => <Link activeClass={s.active}
+                                         key={i}
+                                         duration={500}
+                                         spy={true}
+                                         smooth={true}
+                                         to={l.to}>{l.title}</Link>)}
         </div>
     )
 }

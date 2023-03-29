@@ -10,47 +10,42 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
+import {Keyboard, Navigation, Pagination, EffectCoverflow} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
-
 
 export const MyProjects = () => (
     <div id={"projects"} className={s.projectsBlock}>
         <div className={s.projectsContainer}>
-            <Fade bottom>
+            <Fade>
                 <Title spanText={"Portfolio"} headText={"My Projects"}/>
             </Fade>
             <div className={s.projects}>
                 <Fade bottom>
                     <Swiper
-                        slidesPerView={1}
-                        centeredSlides={false}
-                        slidesPerGroupSkip={1}
+                        effect={"coverflow"}
                         grabCursor={true}
-                        keyboard={{
-                            enabled: true,
+                        slidesPerView={"auto"}
+                        centeredSlides={true}
+                        keyboard={{enabled: true}}
+                        coverflowEffect={{
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows: false,
                         }}
-                        breakpoints={{
-                            769: {
-                                slidesPerView: 2,
-                                slidesPerGroup: 2,
-                            },
-                        }}
-                        scrollbar={true}
-                        navigation={true}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-                        className="mySwiper"
+                        pagination={{clickable: true}}
+                        modules={[EffectCoverflow, Keyboard, Navigation, Pagination]}
+                        className={s.mySwiper}
                     >
-                        {projects.map(p => <SwiperSlide><OneProject style={p.style}
-                                                                    title={p.title}
-                                                                    description={p.description}
-                                                                    projectPath={p.projectPath}
-                                                                    codePath={p.codePath}/>
+                        {projects.map((p, i) => <SwiperSlide key={i}>
+                            <OneProject
+                                style={p.style}
+                                title={p.title}
+                                description={p.description}
+                                projectPath={p.projectPath}
+                                codePath={p.codePath}/>
                         </SwiperSlide>)}
-
                     </Swiper>
                 </Fade>
             </div>

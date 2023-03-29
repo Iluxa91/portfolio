@@ -9,13 +9,17 @@ export const Skills = () => {
     return (
         <div id={"skills"} className={s.skillsBlock}>
             <div className={s.skillsContainer}>
-                <Fade bottom>
+                <Fade>
                     <Title spanText={"My resume"} headText={"My expertises"}/>
                 </Fade>
                 <div className={s.skills}>
-                    <Fade bottom>
-                        {skills.map(s=><Skill style={s.style} title={s.title} description={s.description}/>)}
-                    </Fade>
+                    {skills.map((s, i) =>
+                        <Fade key={i}>
+                            <Skill style={s.style}
+                                   title={s.title}
+                                   description={s.description}/>
+                        </Fade>
+                    )}
                 </div>
             </div>
         </div>
